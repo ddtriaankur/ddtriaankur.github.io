@@ -1,7 +1,9 @@
 var count = 0;
 function setup() {
   var cat = document.getElementById("cat");
-  vat.mousePressed(doSomething);
+  cat.mousePressed(doSomething);
+ createP(count);
+ 
 }
 
 function doSomething(){
